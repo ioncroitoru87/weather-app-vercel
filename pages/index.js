@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 // import Home from "../components/Home";
 import Home from "../components/Home";
+
 import styled from "styled-components";
 
 const key = "4d8fb5b93d4af21d66a2948710284366";
