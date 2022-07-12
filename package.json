@@ -1,20 +1,19 @@
 {
+  "homepage": "http://ioncroitoru87.github.io/weather-app-vercel",
   "name": "wether-app-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
- 
   },
   "dependencies": {
     "axios": "^0.27.2",
     "next": "12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "styled-components": "^5.3.5"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
@@ -22,6 +21,7 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "typescript": "4.7.4"
