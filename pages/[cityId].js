@@ -11,6 +11,10 @@ const StyledContainer = styled.div`
     width: 90%;
     max-width: 1080px;
     margin: 0 auto;
+
+    a {
+        color: blue;
+    }
 `;
 
 const WeatherDetails = () => {
